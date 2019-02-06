@@ -1,0 +1,84 @@
+.container{
+    background: #f9f9f9;
+    font-size: 24px;
+}
+.parallax{
+    background: transparent;
+    padding: 400px 95px;
+}
+
+.text{
+    z-index: 2;
+    position: relative;
+    font-size: 70px;
+    color: rgb(199, 212, 12);
+    text-align: center;
+    margin-top: -250px;
+}
+
+.resim{
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    -webkit-transform: rotate(-7deg);
+    margin-top: 100px;
+    margin-right:-12%;
+}
+
+
+.text2{
+    z-index: 2;
+    position: relative;
+    font-size: 70px;
+    color: rgb(12, 212, 162);
+    text-align: center;
+    font-family: fantasy;
+    margin-top: -50px;
+}
+
+.text3{
+    z-index: 2;
+    position: relative;
+    font-size: 70px;
+    color: rgb(12, 182, 212);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+}
+.text4{
+    z-index: 2;
+    position: relative;
+    font-size: 70px;
+    color: rgb(175, 212, 12);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+}
+.text5{
+    z-index: 2;
+    position: relative;
+    font-size: 70px;
+    color: rgb(212, 12, 145);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+}
+.text6{
+    z-index: 2;
+    position: relative;
+    font-size: 40px;
+    color: rgb(212, 12, 95);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -50px;
+}
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .resim{
+        margin-right:2%;
+    }
+}
